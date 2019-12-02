@@ -26,14 +26,14 @@ Design Pattern used in the project
 MVVM design pattern is used .
 Installing project on Android Studio
  
-Steps:
-1.Download the  project Zip from Github account. Don't use VCS in android studio.\
-2.(Optional)Copy the folder extracted into your AndroidStudioProjects folder which must contain the hidden .git folder.\
-3.Open Android Studio-> File-> Open->Existing android studio -> Select android  project directory.\
-4.Project is imported in your android studio.\
+Steps:<br/>
+1.Download the  project Zip from Github account. Don't use VCS in android studio.<br/>
+2.(Optional)Copy the folder extracted into your AndroidStudioProjects folder which must contain the hidden .git folder.<br/>
+3.Open Android Studio-> File-> Open->Existing android studio -> Select android  project directory.<br/>
+4.Project is imported in your android studio.<br/>
 
-Running the tests\
-To use JUnit tests for your Android application, you need to add it as dependency to your Gradle build file.\
+Running the tests<br/>
+To use JUnit tests for your Android application, you need to add it as dependency to your Gradle build file.<br/>
 
  
 // For espresso test cases
