@@ -26,13 +26,13 @@ Design Pattern used in the project
 MVVM design pattern is used .
 Installing project on Android Studio
  
-Steps:<br/>
+<b>Steps:</b><br/>
 1.Download the  project Zip from Github account. Don't use VCS in android studio.<br/>
 2.(Optional)Copy the folder extracted into your AndroidStudioProjects folder which must contain the hidden .git folder.<br/>
 3.Open Android Studio-> File-> Open->Existing android studio -> Select android  project directory.<br/>
 4.Project is imported in your android studio.<br/>
 
-Running the tests<br/>
+<b>Running the tests</b><br/>
 To use JUnit tests for your Android application, you need to add it as dependency to your Gradle build file.<br/>
 
  
@@ -51,17 +51,17 @@ androidTestImplementation ('com.android.support.test.espresso:espresso-contrib:2
 androidTestImplementation "com.android.support.test:rules:1.0.2"<br/>
 androidTestImplementation "com.android.support.test:runner:1.0.2"<br/>
 
-Using Android Studio<br/>
+<b>Using Android Studio</b><br/>
 To run a unit test, right-click on your test class in the Project window and select Run.<br/>
 
-Location of Test Report<br/>
+<b>Location of Test Report</b><br/>
 The Test reports are created in the app/build/reports/tests/debug/ directory. The index.html gives an overview and links to the individual test pages.<br/>
 
-Coverage Report to be generated
+<b>Coverage Report to be generated</b><br/>
 Lastly, in the latest Android Studio, you should be able to run your JUnit-Run Configuration by clicking on the 'Run with Coverage' button.<br/>
 In Android Studio 2.1.3 the is label Run Unit tests with Coverage where Unit test is the name of your test configuration as shown in the following screenshot:<br/>
 
-Authors<br/>
+<b>Authors</b><br/>
 JYOTI DAHIYA- Senior Android Developer.<br/>
 
 
