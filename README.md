@@ -36,31 +36,33 @@ Running the tests<br/>
 To use JUnit tests for your Android application, you need to add it as dependency to your Gradle build file.<br/>
 
  
-// For espresso test cases
-androidTestImplementation ('com.android.support.test.espresso:espresso-core:3.0.2', {
-   exclude group: 'com.android.support', module: 'support-annotations'
-})
-// For recycler view actions
-androidTestImplementation ('com.android.support.test.espresso:espresso-contrib:2.0') {
-   exclude group: 'com.android.support', module: 'appcompat'
-   exclude group: 'com.android.support', module: 'support-v4'
-   exclude module: 'recyclerview-v7'
+// For espresso test cases<br/>
+androidTestImplementation ('com.android.support.test.espresso:espresso-core:3.0.2', {<br/>
+   exclude group: 'com.android.support', module: 'support-annotations'<br/>
+})<br/>
+// For recycler view actions<br/>
+androidTestImplementation ('com.android.support.test.espresso:espresso-contrib:2.0') {<br/>
+   exclude group: 'com.android.support', module: 'appcompat'<br/>
+   exclude group: 'com.android.support', module: 'support-v4'<br/>
+   exclude module: 'recyclerview-v7'<br/>
 }
  
 // For espresso activity rule
-androidTestImplementation "com.android.support.test:rules:1.0.2"
-androidTestImplementation "com.android.support.test:runner:1.0.2"
-Using Android Studio
-To run a unit test, right-click on your test class in the Project window and select Run.
+androidTestImplementation "com.android.support.test:rules:1.0.2"<br/>
+androidTestImplementation "com.android.support.test:runner:1.0.2"<br/>
 
-Location of Test Report
-The Test reports are created in the app/build/reports/tests/debug/ directory. The index.html gives an overview and links to the individual test pages.
+Using Android Studio<br/>
+To run a unit test, right-click on your test class in the Project window and select Run.<br/>
+
+Location of Test Report<br/>
+The Test reports are created in the app/build/reports/tests/debug/ directory. The index.html gives an overview and links to the individual test pages.<br/>
+
 Coverage Report to be generated
-Lastly, in the latest Android Studio, you should be able to run your JUnit-Run Configuration by clicking on the 'Run with Coverage' button.
-In Android Studio 2.1.3 the is label Run Unit tests with Coverage where Unit test is the name of your test configuration as shown in the following screenshot:
+Lastly, in the latest Android Studio, you should be able to run your JUnit-Run Configuration by clicking on the 'Run with Coverage' button.<br/>
+In Android Studio 2.1.3 the is label Run Unit tests with Coverage where Unit test is the name of your test configuration as shown in the following screenshot:<br/>
 
-Authors
-JYOTI DAHIYA- Senior Android Developer.
+Authors<br/>
+JYOTI DAHIYA- Senior Android Developer.<br/>
 
 
 
