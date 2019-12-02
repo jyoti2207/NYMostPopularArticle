@@ -1,4 +1,4 @@
-New York Most Popular Article Project
+<b>New York Most Popular Article Project</b>
 
 It is a simple app to hit the NY Times Most Popular Articles API and show a list of articles,
 that shows details when items on the list are tapped (a typical master/detail app)
@@ -15,16 +15,18 @@ https://developer.nytimes.com/get-started.
 
 As this code uses Jetpack, you will need Android Studio 3.2+.
 
-Libraries used on the project
+<b>Libraries used on the project</b></br>
 AppCompat, CardView, RecyclerView as DesignLibrary
 Data binding
 Retrofit 
 Junit
 Livedata
 Espresso
-Design Pattern used in the project
+
+<b>Design Pattern used in the project</b></br>
 MVVM design pattern is used .
-Installing project on Android Studio
+
+<b>Installing project on Android Studio</b></br>
  
 <b>Steps:</b><br/>
 1.Download the  project Zip from Github account. Don't use VCS in android studio.<br/>
