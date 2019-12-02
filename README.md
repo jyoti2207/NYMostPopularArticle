@@ -62,6 +62,7 @@ The Test reports are created in the app/build/reports/tests/debug/ directory. Th
 <b>Coverage Report to be generated</b><br/>
 Lastly, in the latest Android Studio, you should be able to run your JUnit-Run Configuration by clicking on the 'Run with Coverage' button.<br/>
 In Android Studio 2.1.3 the is label Run Unit tests with Coverage where Unit test is the name of your test configuration as shown in the following screenshot:<br/>
+https://user-images.githubusercontent.com/41769480/69937601-336aa880-1501-11ea-83d7-5fb6bd9eb7b5.png
 
 <b>Authors</b><br/>
 JYOTI DAHIYA- Senior Android Developer.<br/>
